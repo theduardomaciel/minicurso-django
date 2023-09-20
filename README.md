@@ -1,6 +1,6 @@
 # Minicurso: Criação e manutenção de APIs REST usando Django e Django REST Framework
 
-💻 Como inicializar o projeto
+## 💻 Como inicializar o projeto
 
 > Requisitos: Python instalado na máquina
 
