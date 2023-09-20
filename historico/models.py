@@ -58,7 +58,7 @@ class Pessoa(models.Model):
 class Ocorrencia(models.Model):
     id_ocorrencia = models.AutoField(primary_key=True)
     data = models.DateField(auto_now_add=True)
-    realizada = models.TextField(max_length=1)
+    realizada = models.CharField(max_length=1)
     ocorrencia = models.TextField()
 
     pessoa = models.ForeignKey(Pessoa, on_delete=models.CASCADE)

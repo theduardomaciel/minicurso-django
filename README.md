@@ -33,4 +33,4 @@ django-admin startproject minicurso .
 ```
 python manage.py startapp blog
 ```
-> Observação: Caso o sistema Linux apresente a configuração de idioma do teclado incorreta no Laboratório, utilize o comando: `setxkbmap br`
+> Observação: Caso o sistema Linux apresente a configuração de idioma do teclado incorreta no Laboratório, utilize o comando: `setxkbmap br` no terminal
