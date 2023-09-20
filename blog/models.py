@@ -19,4 +19,4 @@ class Comentario(models.Model):
 
     postagem = models.ForeignKey(Postagem, on_delete=models.CASCADE)
 
-# no shell (aberto por `python manage.py shell`): from blog.models import Postagem
+# Ao abrir o shell (aberto por `python manage.py shell`), podemos listar e criar elementos: from blog.models import Postagem
